@@ -1,6 +1,7 @@
 import { useState , useEffect } from 'react'
 import Note from "./components/note" 
 import notesServices from './services/notes'
+import notification from './components/notifcation'
 
 
 
