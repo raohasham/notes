@@ -1,13 +1,17 @@
-const notification = ({message})=>{
+
+const Notification = ({message})=>{
     if(message===null){
+        
         return null
     }
     else
     {
-        <div className="error">
+    
+    return  <div className="error">
             {message}
         </div>
     }
 
 }
-export default notification
+
+export default Notification
