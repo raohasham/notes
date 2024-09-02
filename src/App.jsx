@@ -2,6 +2,7 @@ import { useState , useEffect } from 'react'
 import Note from "./components/note" 
 import notesServices from './services/notes'
 import Notification from './components/notifcation'
+import Footer from './components/footer'
 
 
 
@@ -84,6 +85,7 @@ notesServices
       <button onClick={()=>{setshowall(!showall)}}>
         show {showall? 'important':'all'}
       </button>
+      <Footer/>
     </div>
   )
 
