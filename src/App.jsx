@@ -1,7 +1,7 @@
 import { useState , useEffect } from 'react'
 import Note from "./components/note" 
-import axios from 'axios'
 import notesServices from './services/notes'
+
 
 
 const App = () => {
